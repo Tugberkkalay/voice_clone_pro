@@ -1,0 +1,15 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+python-multipart==0.0.9
+
+# TTS (Coqui, XTTS-v2 içeriyor)
+TTS==0.22.0
+
+# PyTorch
+torch==2.1.2
+
+# Ses işleme
+pydub==0.25.1
+
+# LLM (OpenAI Responses API)
+openai==1.52.0

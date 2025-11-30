@@ -1,0 +1,42 @@
+# --- Python venv ---
+.venv/
+venv/
+__pycache__/
+
+# --- OS junk ---
+.DS_Store
+
+# --- IDE ---
+.idea/
+.vscode/
+
+# --- Logs ---
+logs/
+*.log
+
+# --- XTTS training outputs ---
+xtts_run/
+checkpoints/
+
+# --- Large data directories ---
+data/voices/
+data/training_data/
+data/outputs/
+speakers/
+
+# Eğer speakers/ klasörünün içindeki sadece orijinal ses kayıtlarını gizlemek istersen:
+# speakers/*
+
+# --- Whisper / Intermediate files ---
+*.wav.tmp
+*.txt.tmp
+*.json.tmp
+
+# --- Model checkpoints ---
+*.pth
+*.ckpt
+
+# --- Cache ---
+cache/
+__pycache__/
+*.egg-info/
