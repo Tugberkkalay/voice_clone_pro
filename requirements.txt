@@ -1,15 +1,26 @@
-fastapi==0.115.0
-uvicorn[standard]==0.30.0
-python-multipart==0.0.9
-
-# TTS (Coqui, XTTS-v2 içeriyor)
+# -------------------
+# CORE AUDIO / TTS
+# -------------------
 TTS==0.22.0
-
-# PyTorch
-torch==2.1.2
-
-# Ses işleme
+openai-whisper==20231117
 pydub==0.25.1
+soundfile==0.12.1
 
-# LLM (OpenAI Responses API)
-openai==1.52.0
+# -------------------
+# LLM / OpenAI
+# -------------------
+openai>=1.6.0,<2.0.0
+
+# -------------------
+# UTILITIES
+# -------------------
+numpy>=1.24.0
+scipy>=1.11.0
+protobuf>=4.23.0
+tqdm>=4.66.0
+rich>=13.7.0
+
+# -------------------
+# CONFIG / ENV
+# -------------------
+python-dotenv>=1.0.0
